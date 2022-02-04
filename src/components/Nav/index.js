@@ -2,11 +2,13 @@ import React from "react";
 
 function Nav(props) {
   
-  
+    console.log("****props", props)
+
     const handleClick = (item) => {
       console.log(item);
       return item;
     };
+
     return (
         <header className="flex-row px-1">
           <h2>
@@ -23,7 +25,7 @@ function Nav(props) {
               </li>
               <li className={"mx-2"}>
                 <span onClick={() => handleClick('Contact')}>
-                  Contact
+                  Contact {props.cat} {props.dog}
                 </span>
                  
                 </li>

@@ -6,21 +6,17 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import './App.css';
 
-function App() {
+export default function App() {
+
   return (
     <div>
-      
-      <Nav>
-
-      </Nav>
+      <Nav/>
       <main>
-        <ContactForm></ContactForm>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
+        <ContactForm/>
+        {/* <About/>
+        <Portfolio/>
+        <Resume/> */}
       </main>
     </div>
   );
 }
-
-export default App;
