@@ -8,8 +8,9 @@ export default function ContactForm() {
     message: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
-  //so these are the form states... why would i expect this to be written the other way around? the use of this whole bit throughout confuses me a little
+ 
   const { name, email, message } = formState;
+ 
   //
   function handleChange(e) {
     if (e.target.name === "email") {
@@ -27,28 +28,23 @@ export default function ContactForm() {
         setErrorMessage("");
       }
     }
-    ///name is email message or name and value is the input for that????
-
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log("handle form", formState);
     }
-
-    console.log(formState);
-  }
+  };
   function handleSubmit(e) {
-    // we prevent the default but then what happens instead??
-    //ig they just say leave it to the backend but like im curious whats up here i want to know what one would do, resources on this?
+   
     e.preventDefault();
     console.log(formState);
   }
-  
+
   return (
     <section>
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
-          why do we need this default value to be
           <input
             type="text"
             defaultValue={name}
@@ -62,7 +58,7 @@ export default function ContactForm() {
             type="email"
             defaultValue={email}
             name="email"
-            onChange={handleChange}
+            onBlur={handleChange}
           />
         </div>
         <div>
@@ -70,10 +66,15 @@ export default function ContactForm() {
           <textarea
             name="message"
             defaultValue={message}
-            onChange={handleChange}
+            onBlur={handleChange}
             rows="5"
           />
         </div>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
         <button type="submit">Submit</button>
       </form>
     </section>
