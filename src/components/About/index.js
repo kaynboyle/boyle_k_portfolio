@@ -5,9 +5,11 @@ function About() {
     return (
       <section className= "my-5">
         <div className="color-block">
+          <div id ="profpic">
+            <img id="main" src={profPic} className="my-2" alt="profile" />
+          </div>
           <h1 id="about">Who am I?</h1>
-          <img src={profPic} className="my-2" alt="profile" />
-         </div>
+        </div>
         <div className="my-2">
           <p>
               orem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
@@ -16,7 +18,11 @@ function About() {
             Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
             justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
             dictumst. Phasellus mattis nunc sed orci consequat laoreet. Pra
-          </p>        
+          </p>   
+          <p>
+            Lorem ipsum dolor , consectet kskdfss;kjf;lkdjsf;ljaalkdjf
+               ;asldkjf;alskd
+          </p>     
         </div>
       </section>
     );

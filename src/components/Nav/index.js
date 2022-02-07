@@ -18,12 +18,13 @@ function Nav(props) {
     // };
 
     return (
-        <header className="flex-row px-1">
-          <h2>
+      <section id="Nav">
+        <h2>
           <a href="/">
-            <span role="img" aria-label="orb"> 🌐</span> Kaylin Boyle Tech Portfolio
+              Kaylin Boyle Tech Portfolio
           </a>
-          </h2>
+        </h2>
+        <header className="flex-row px-1">
           <nav>
             <ul className="flex-row">
               <li className="mx-2">
@@ -55,6 +56,7 @@ function Nav(props) {
             </ul>
           </nav>
         </header>
+      </section>
       );
     }
     
