@@ -10,7 +10,10 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/kaylin-n-boyle/">
                     <img src="https://e7.pngegg.com/pngimages/719/545/png-clipart-social-media-computer-icons-linkedin-cv-text-logo-thumbnail.png" alt="linked in"/>
                 </a>
-                <a></a>
+                <a href=""></a>
+                <a href="https://stackoverflow.com/users/16864639/kaynboyle">
+                    <img src="https://stackoverflow.design/assets/img/favicons/apple-touch-icon.png" alt="stackoverflow"/>
+                </a>
             </div>
         </footer>
     );
