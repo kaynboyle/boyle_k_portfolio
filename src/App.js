@@ -10,15 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   const[pages] = useState([
-    {
-      name: 'Portfolio',
-      description: 'Projects I completed or contributed to',
-    },
-    { name: 'Resume', description: 'Experience, skills and background' },
-   
-  ])
+Resume, Portfolio])
   const [contactSelected, setContactSelected] = useState(false);
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const [aboutSelected, setAboutSelected] = useState(true);
+  const [currentPage, setCurrentPage] = useState({About});
 
   return (
     <div>
@@ -28,9 +23,15 @@ export default function App() {
         currentPage={currentPage}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        setAboutSelected={aboutSelected}
       />
       <main>
       {!contactSelected ? (
+        !aboutSelected ? 
+        <>
+          <Portfolio/>
+        </>
+        :
         <>
           <About/>
         </>

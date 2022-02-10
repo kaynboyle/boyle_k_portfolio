@@ -9,6 +9,7 @@ function Nav(props) {
     setContactSelected,
     currentPage,
     setCurrentPage,
+    setAboutSelected,
   } = props;
     console.log("****props", props)
 
@@ -35,23 +36,12 @@ function Nav(props) {
               <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                 <span onClick={() => setContactSelected(true)}>Contact</span>
               </li>
-              {pages.map((page) => (
-            <li
-              className={`mx-1 ${
-                currentPage.name === page.name && !contactSelected && 'navActive'
-                }`}
-              key={page.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentPage(page);
-                  setContactSelected(false);
-                }}
-              >
-                {page.name}
-              </span>
+            <li className="mx-2">
+              {/* <a href="#portfolio" onClick={() =>  setContactSelected(false), setAboutSelected(false)}> */}
+              <a href="#portfolio" onClick={() => setContactSelected(false)}>
+                  PORTFOLIO
+                </a>
             </li>
-          ))}
            
             </ul>
           </nav>
