@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #de8fe4;
 }
 
 @keyframes App-logo-spin {
@@ -68,10 +68,11 @@ html{
 .my-5 section, .color-block{
   display: flex;
   background-color: rgb(255, 210, 217, 1);
+  
 }
 
 .my-5 section, p{
-  background-color: rgb(243, 231, 199);
+  /* background-color: rgb(243, 231, 199); */
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -142,7 +143,162 @@ footer, img{
   height: 40px;
   width: 40px;
   margin-right: 40px;
+
+}
+footer{
+  margin-left: 450px;
 }
 /* #github{
   margin-right:40px;
 } */
+
+
+div#portfolio{
+  /* display: flex;
+  flex-flow: wrap; */
+  margin-top: 100px;
+  width: 85%;
+  height: 85%
+}
+div#portfolio h1{
+  background-color: rgba(170, 122, 155, 0.5);
+  margin-right: -200px;
+  margin-bottom: 50px;
+
+}
+div#portfolio div.flex-box-tags div#split{
+  
+  margin-top: 90px;
+}
+div#portfolio div.flex-box-tags a{
+  background-color: rgba(170, 122, 155, 0.5);
+  margin-right: -200px;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+div#portfolio div#img2 {
+  border: 5px solid rgba(226, 189, 214, 0.5);
+  width: 100%;
+  height: 300px;
+  background-image: url(../src/assets/screencaps/extension_pass.jpg);
+  justify-content: flex-start;
+  background-size: 1050px;
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+      
+}
+ 
+
+div#portfolio div#img3 {
+  border: 5px solid rgba(226, 189, 214, 0.5);
+  width: 700px;
+  height: 100px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-image: url('https://blog.corp-site.envato.com/cdn-cgi/image/width=1200,quality=85,format=auto/uploads/2020/11/SOC133_WebDesign_Trends_2021_Blog.jpg');
+  background-position: center;    
+}
+div#portfolio a{
+  background-color: rgba(170, 122, 155, 2);
+  color: rgb(82, 67, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 550px;
+  font-weight: bold;
+  margin-top: -60px;
+  font-size: 30px;
+  
+}
+div#portfolio p{
+  background-color: rgba(170, 122, 155, 2);;
+  color: rgb(82, 67, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: -1px;
+  margin-right: 750px;
+  
+}
+
+div#portfolio div#img3 {
+  border: 5px solid rgba(226, 189, 214, 0.5);
+  width: 100%;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/6037fd6d292fe47561a93ac4_how-to-learn-web-design.jpg');
+  background-position: center;   
+}
+div#portfolio div#img4 {
+  border: 5px solid rgba(226, 189, 214, 0.5);
+  width: 100%;
+  height: 300px;
+  background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60107eab1a08453016e256a7_6002086f72b727ea8901e8eb_web-design-trends-2021.jpeg');
+  margin-left: 30px;
+  margin-bottom: 10px;
+  /* margin-top: -240px; */
+  background-position: left;
+
+      
+}
+div#portfolio div#img5 {
+  border: 5px solid rgba(226, 189, 214, 0.5);
+  width: 100%;
+  height: 300px;
+  background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60107eb0b92ae28e573d81a6_6002086f72b72739ce01e872_PushPress-Webflow.jpeg');
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-position: right;
+      
+}
+
+@media screen and (min-width: 768px) {
+  #portfolio div.flex-container div#work div.work-images div.img-container {
+      width: 50%;
+  }
+}
+
+/* div.flex-container div#work div.work-images div.r22{
+  background-image: url(https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg);
+} */
+
+#download{
+  background-color: pink;
+  font-weight:bold;
+  display:flex;
+  justify-content:center;
+  margin-left: -20px !important;
+  margin-top: 40px;
+}
+div.resume-body p{
+  background-color: white !important;
+}
+
+#resume h1{
+  margin-top: 65px;
+  margin-left: 20px;
+}
+#resume h5{
+  margin-left: 20px;
+}
+#resume h6{
+  margin-top: 30px;
+}
+#resume{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.Title{
+  background-color: rgba(170, 122, 155, 0.5);
+  margin-left: -20px !important;
+}
+div.my-2 p{
+  margin-right: 20px;
+}
+
+

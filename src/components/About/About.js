@@ -12,16 +12,7 @@ function About() {
         </div>
         <div className="my-2">
           <p>
-              orem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-            condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-            mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-            Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-            justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-            dictumst. Phasellus mattis nunc sed orci consequat laoreet. Pra
-          </p>   
-          <p>
-            Lorem ipsum dolor , consectet kskdfss;kjf;lkdjsf;ljaalkdjf
-               ;asldkjf;alskd
+          My certificate from UCB in the Full-Stack Web Development program has aptly prepared me to take on the front and back end of projects but I have a fondness for UX and design as I got my second degree in Art at UCSC. In the Full-Stack Web Development program I worked with others where I was able to demonstrate skills in communication, project management and self-sufficiency. I have 3 years experience creating projects in Python then JavaScript. I completed my Python classes with high grades and  the projects I collaborated on in the UCB program received glowing reviews from instructors.  My degree in Cognitive Science with a focus in AI focused heavily on tech and user experience. I am passionate about accessibility and making apps for disabled people and websites that are easy for all to navigate. Using design knowledge that I obtained through my Art degree I hope to make elegant, interesting applications that are also easily accessible for people of all abilities. 
           </p>     
         </div>
       </section>
