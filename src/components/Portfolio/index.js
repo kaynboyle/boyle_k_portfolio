@@ -30,6 +30,14 @@ function Portfolio() {
               <a href="https://tranquil-gorge-31416.herokuapp.com">Passport Extension</a>
               <p>A travel blog and community </p>
             </div>
+            <div id="img6" class="img-container">
+              <a href="https://kaynboyle.github.io/module2">My First Portfolio</a>
+              <p> An HTML and CSS portfolio </p>
+            </div>
+            <div id="img7" class="img-container">
+              <a href="https://kaynboyle.github.io/Work-Day-Planner">Work Day Planner</a>
+              <p> A site to help you plan out your day </p>
+            </div>
         </div>
       </section>
     );
