@@ -19,15 +19,16 @@ function Portfolio() {
                 <p>A Covid Safety Travel Web App</p>
             </div>
             <div id="img3" class="img-container">
-                <a href="https://whispering-plains-41505.herokuapp.com/login">Extension-Pass</a>
+                <a href="https://whispering-plains-41505.herokuapp.com">Extension-Pass</a>
                 <p>A Travel Blog Web App With Social Features</p>
             </div>
             <div id="img4" class="img-container">
-              <a href="https://whispering-plains-41505.herokuapp.com/login">Extension-Pass</a>
-              <p>A Travel Blog Web App With Social Features</p>
+              <a href="https://kaynboyle.github.io/WeatherAppModule6">Weather App</a>
+              <p>A weather forecast site </p>
             </div>
             <div id="img5" class="img-container">
-
+              <a href="https://tranquil-gorge-31416.herokuapp.com">Passport Extension</a>
+              <p>A travel blog and community </p>
             </div>
         </div>
       </section>
