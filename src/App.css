@@ -133,21 +133,25 @@ html{
 }
 #target-bottom{
   display: flex;
-  justify-content:flex-start; 
-  margin-right: 50px;
-  margin-left: 100px;
-
-
+  flex-direction:row;
 }
+footer{
+  color:#FFF;
+  height:200px;
+  width:100%;
+  margin: auto;
+  /* padding:10px; */
+  text-align: center;
+  }
+
+
 footer, img{
   height: 40px;
   width: 40px;
-  margin-right: 40px;
+  margin-top: 10px;
 
 }
-footer{
-  margin-left: 450px;
-}
+
 /* #github{
   margin-right:40px;
 } */
